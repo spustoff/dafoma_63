@@ -7,7 +7,8 @@
 
 
 import SwiftUI
-import WebKit
+import Combine
+@preconcurrency import WebKit
 
 struct WebSystem: View {
     
